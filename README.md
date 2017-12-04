@@ -1,9 +1,9 @@
-# $package_name
+# ai-await
 
-[![Travis Build Status](https://img.shields.io/travis/$package_author/$package_name/master.svg)](http://travis-ci.org/$package_author/$package_name)
-[![NPM downloads](https://img.shields.io/npm/dt/$package_name.svg)](https://npmjs.org/package/$package_name)
+[![Travis Build Status](https://img.shields.io/travis/parro-it/ai-await/master.svg)](http://travis-ci.org/parro-it/ai-await)
+[![NPM downloads](https://img.shields.io/npm/dt/ai-await.svg)](https://npmjs.org/package/ai-await)
 
-> $package_description
+> await the end of an async iterable.
 
 
 > **_This module is part of
@@ -15,9 +15,9 @@
 description of the example
 
 ```js
-import $package_var from '$package_name';
+import aiAwait from 'ai-await';
 
-for (const item of $package_var()) {
+for (const item of aiAwait()) {
   yield item;
 };
 ```
@@ -34,7 +34,7 @@ This will output
 With [npm](https://npmjs.org/) installed, run
 
 ```bash
-npm install --save $package_name
+npm install --save ai-await
 ```
 
 ## See Also
@@ -48,5 +48,5 @@ npm install --save $package_name
 ## License
 
 MIT Licensed
-© $current_year $package_author_name
+© 2017 Andrea Parodi
 
