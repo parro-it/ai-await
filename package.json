@@ -1,6 +1,6 @@
 {
   "name": "ai-await",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "await the end of an async iterable.",
   "repository": "parro-it/ai-await",
   "author": "Andrea Parodi <andrea@parro.it>",
